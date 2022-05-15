@@ -1,0 +1,136 @@
+body {
+    background-color: #000000;
+}
+
+nav {
+    background-color: #ffffff;
+    height: 64px;
+}
+
+.navbar-toggler {
+    border-radius: 0;
+}
+
+.nav-link:hover {
+    color: #4183cf !important;
+}
+
+button {
+    all: unset;
+}
+
+.img-box img.img-hover {
+    display: none;
+}
+
+.img-box:hover img.img-default {
+    display: none;
+}
+
+.img-box:hover img.img-hover {
+    display: inherit;
+}
+
+.red-hat-mono-03 {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 3px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.red-hat-mono-10 {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.red-hat-mono-16 {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.red-hat-mono-16-black {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.red-hat-mono-20-black {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #000000 !important;
+}
+
+.red-hat-mono-22 {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.red-hat-mono-24-black {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
+.red-hat-mono-28-bold {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.red-hat-mono-32 {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1600px) {
+    nav {
+        height: 80px;
+    }
+    .red-hat-mono-03 {
+        font-size: 2px;
+        letter-spacing: 1px;
+    }
+    .red-hat-mono-10 {
+        font-size: 5px;
+        letter-spacing: 1px;
+    }
+    .red-hat-mono-16-black {
+        font-size: 12px;
+    }
+    .red-hat-mono-20 {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+    .red-hat-mono-22 {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    .red-hat-mono-28-bold {
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+    .red-hat-mono-32 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .red-hat-mono-32 {
+        font-size: 18px;
+    }
+    .red-hat-mono-16-black {
+        font-size: 9.4px;
+    }
+}
